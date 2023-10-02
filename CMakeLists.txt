@@ -17,8 +17,10 @@ link_directories(${PROJECT_SOURCE_DIR}/build H:/boost_1_83_0/stage/lib)
 #add_library(applib foo.cpp)
 #скомпилировать динамическую библиотеку
 add_library(sharedlib SHARED  sharedlib.cpp)
+#add_library(hello_static STATIC ${LIBHELLO_SRC}) линковка статической библиотеки
 #//Линковка программы main с библиотеками sharedlib и libboost_chrono-mgw13-mt-x64-1_83.a
 link_libraries(sharedlib libboost_chrono-mgw13-mt-x64-1_83.a) 
+
 
 #target_link_options()
 #target_precompile_headers()
@@ -41,3 +43,6 @@ include(CPack)
 #else(HELLO_FOUND)
 #    message(FATAL_ERROR "HELLO library not found")
 #endif(HELLO_FOUND)
+
+#добавление подпапки
+#add_subdirectory(src)
