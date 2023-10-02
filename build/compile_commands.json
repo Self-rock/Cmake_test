@@ -1,0 +1,17 @@
+[
+{
+  "directory": "C:/Users/Selfrock/Desktop/C++/hello_world/build",
+  "command": "H:\\mingw64\\bin\\g++.exe -Dsharedlib_EXPORTS @CMakeFiles/sharedlib.dir/includes_CXX.rsp -Wall -g -g -o CMakeFiles\\sharedlib.dir\\sharedlib.cpp.obj -c C:\\Users\\Selfrock\\Desktop\\C++\\hello_world\\sharedlib.cpp",
+  "file": "C:/Users/Selfrock/Desktop/C++/hello_world/sharedlib.cpp"
+},
+{
+  "directory": "C:/Users/Selfrock/Desktop/C++/hello_world/build",
+  "command": "H:\\mingw64\\bin\\g++.exe  @CMakeFiles/Hello_World.dir/includes_CXX.rsp -Wall -g -g -o CMakeFiles\\Hello_World.dir\\main.cpp.obj -c C:\\Users\\Selfrock\\Desktop\\C++\\hello_world\\main.cpp",
+  "file": "C:/Users/Selfrock/Desktop/C++/hello_world/main.cpp"
+},
+{
+  "directory": "C:/Users/Selfrock/Desktop/C++/hello_world/build",
+  "command": "H:\\mingw64\\bin\\g++.exe  @CMakeFiles/Hello_World.dir/includes_CXX.rsp -Wall -g -g -o CMakeFiles\\Hello_World.dir\\foo.cpp.obj -c C:\\Users\\Selfrock\\Desktop\\C++\\hello_world\\foo.cpp",
+  "file": "C:/Users/Selfrock/Desktop/C++/hello_world/foo.cpp"
+}
+]

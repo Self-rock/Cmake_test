@@ -1,0 +1,1 @@
+  -LC:/Users/Selfrock/Desktop/C++/hello_world/build  -LH:/boost_1_83_0/stage/lib  libsharedlib.dll.a -Wl,-Bstatic -lboost_chrono-mgw13-mt-x64-1_83 -Wl,-Bdynamic -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

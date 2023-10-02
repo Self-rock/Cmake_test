@@ -1,0 +1,3 @@
+"C:\Program Files\Raspberry Pi\Pico SDK v1.5.1\cmake\bin\cmake.exe" -E rm -f CMakeFiles\sharedlib.dir/objects.a
+H:\mingw64\bin\ar.exe qc CMakeFiles\sharedlib.dir/objects.a @CMakeFiles\sharedlib.dir\objects1
+H:\mingw64\bin\g++.exe -Wall -g -g -shared -o libsharedlib.dll -Wl,--out-implib,libsharedlib.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\sharedlib.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\sharedlib.dir\linkLibs.rsp

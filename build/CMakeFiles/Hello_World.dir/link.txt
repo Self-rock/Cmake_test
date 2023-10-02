@@ -1,0 +1,3 @@
+"C:\Program Files\Raspberry Pi\Pico SDK v1.5.1\cmake\bin\cmake.exe" -E rm -f CMakeFiles\Hello_World.dir/objects.a
+H:\mingw64\bin\ar.exe qc CMakeFiles\Hello_World.dir/objects.a @CMakeFiles\Hello_World.dir\objects1
+H:\mingw64\bin\g++.exe -Wall -g -g -Wl,--whole-archive CMakeFiles\Hello_World.dir/objects.a -Wl,--no-whole-archive -o Hello_World.exe -Wl,--out-implib,libHello_World.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Hello_World.dir\linkLibs.rsp
