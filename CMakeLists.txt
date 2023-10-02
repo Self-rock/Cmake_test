@@ -6,6 +6,8 @@ project(Hello_World VERSION 0.1.0 LANGUAGES C CXX)
 include(CTest)
 enable_testing()
 
+
+
 # добавление директори с include файлами
 include_directories(H:/boost_1_83_0 ${PROJECT_SOURCE_DIR})
 # добавление директори с библиотеками
@@ -31,3 +33,11 @@ set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 #включает поддержку системы управления пакетами CPack. 
 #CPack позволяет создавать пакеты вашего проекта для различных операционных систем и платформ.
 include(CPack)
+
+#Вывод сообщений при иницилизации сборки
+#SET(HELLO_FOUND true)
+#if(HELLO_FOUND)
+#    message("HELLO library  found")
+#else(HELLO_FOUND)
+#    message(FATAL_ERROR "HELLO library not found")
+#endif(HELLO_FOUND)
