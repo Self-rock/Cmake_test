@@ -15,7 +15,7 @@ link_directories(${PROJECT_SOURCE_DIR}/build H:/boost_1_83_0/stage/lib)
 #add_library(applib foo.cpp)
 #скомпилировать динамическую библиотеку
 add_library(sharedlib SHARED  sharedlib.cpp)
-#//Линковка программы main с библиотеками
+#//Линковка программы main с библиотеками sharedlib и libboost_chrono-mgw13-mt-x64-1_83.a
 link_libraries(sharedlib libboost_chrono-mgw13-mt-x64-1_83.a) 
 
 #target_link_options()
