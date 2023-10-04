@@ -8,7 +8,7 @@
 
 using namespace std;
 
-int main()
+int main(int argc, const char** argv)
 {
     int i=5;
     i++;
@@ -32,6 +32,14 @@ int main()
     std::sqrt( 123.456L ); // burn some time
     boost::chrono::duration<double> sec = boost::chrono::system_clock::now() - start;
     std::cout << "took " << sec.count() << " seconds\n";
+
+        if (argc>1)
+        {
+        string tmp =argv[1];
+        if (tmp=="0")return 0;
+        else if (tmp=="1") return 1;
+        }
+
 
     return 0;
 }

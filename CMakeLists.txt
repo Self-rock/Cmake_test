@@ -5,8 +5,9 @@ project(Hello_World VERSION 0.1.0 LANGUAGES C CXX)
 #которая позволяет автоматизировать процесс сборки и тестирования вашего проекта
 include(CTest)
 enable_testing()
-
-
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/build")
+add_test(Test_0, "${CMAKE_SOURCE_DIR}/build/${PROJECT_NAME}" "0")
+add_test(Test_1, "${CMAKE_SOURCE_DIR}/build/${PROJECT_NAME}" "1")
 
 # добавление директори с include файлами
 include_directories(H:/boost_1_83_0 ${PROJECT_SOURCE_DIR})
