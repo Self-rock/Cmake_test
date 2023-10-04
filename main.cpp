@@ -33,6 +33,8 @@ int main(int argc, const char** argv)
     boost::chrono::duration<double> sec = boost::chrono::system_clock::now() - start;
     std::cout << "took " << sec.count() << " seconds\n";
 
+
+        //for CTest
         if (argc>1)
         {
         string tmp =argv[1];
