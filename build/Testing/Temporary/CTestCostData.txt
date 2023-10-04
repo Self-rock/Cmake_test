@@ -1,6 +1,6 @@
-Test_0, 7 0.256656
+Test_0, 9 0.246612
 Test_1, 2 0.305912
 Test_Test, 4 0.243388
-Test_Sum, 2 0.264432
-Test_Sqrt, 1 0.215072
+Test_Sum, 3 0.264373
+Test_Sqrt, 2 0.211443
 ---

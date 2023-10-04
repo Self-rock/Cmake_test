@@ -24,8 +24,8 @@
 	ProcessorClockFrequency="3400"
 	>
 	<Testing>
-		<StartDateTime>Oct 04 22:08 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
-		<StartTestTime>1696446518</StartTestTime>
+		<StartDateTime>Oct 04 22:09 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
+		<StartTestTime>1696446572</StartTestTime>
 		<TestList>
 			<Test>./Test_Sum,</Test>
 		</TestList>
@@ -36,7 +36,7 @@
 			<FullCommandLine>C:\Users\Selfrock\Desktop\C++\hello_world\build\Hello_World.exe "Sum"</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.259985</Value>
+					<Value>0.264254</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -55,14 +55,14 @@
 Hello, from boost!
 Hello World!
 Sum from shared lib = 11
-took 0.243921 seconds
+took 0.251918 seconds
 sqrt 4 2 
 </Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>Oct 04 22:08 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
-		<EndTestTime>1696446518</EndTestTime>
+		<EndDateTime>Oct 04 22:09 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
+		<EndTestTime>1696446572</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
