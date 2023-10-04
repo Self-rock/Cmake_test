@@ -2,10 +2,13 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Hello_World.exe"
+			"path" : "libsharedlib.dll"
 		},
 		{
-			"path" : "Hello_World.pdb"
+			"path" : "libsharedlib.dll.a"
+		},
+		{
+			"path" : "libsharedlib.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -13,7 +16,7 @@
 	{
 		"commands" : 
 		[
-			"add_executable",
+			"add_library",
 			"link_directories",
 			"include_directories"
 		],
@@ -29,19 +32,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 29,
+				"line" : 21,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 15,
+				"line" : 16,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 13,
+				"line" : 14,
 				"parent" : 0
 			}
 		]
@@ -53,6 +56,12 @@
 			[
 				{
 					"fragment" : "-Wall -g -g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "sharedlib_EXPORTS"
 				}
 			],
 			"includes" : 
@@ -69,27 +78,15 @@
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
-	"dependencies" : 
-	[
-		{
-			"backtrace" : 1,
-			"id" : "sharedlib::@6890427a1f51a3e7e1df"
-		}
-	],
-	"id" : "Hello_World::@6890427a1f51a3e7e1df",
+	"id" : "sharedlib::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
-			{
-				"fragment" : "-Wall -g -g",
-				"role" : "flags"
-			},
 			{
 				"fragment" : "",
 				"role" : "flags"
@@ -105,32 +102,14 @@
 				"role" : "libraryPath"
 			},
 			{
-				"backtrace" : 1,
-				"fragment" : "libsharedlib.dll.a",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "-Wl,-Bstatic",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 1,
-				"fragment" : "-lboost_chrono-mgw13-mt-x64-1_83",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "-Wl,-Bdynamic",
-				"role" : "libraries"
-			},
-			{
 				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
 				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "Hello_World",
-	"nameOnDisk" : "Hello_World.exe",
+	"name" : "sharedlib",
+	"nameOnDisk" : "libsharedlib.dll",
 	"paths" : 
 	{
 		"build" : ".",
@@ -142,8 +121,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
@@ -152,15 +130,9 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "foo.cpp",
+			"path" : "sharedlib.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "EXECUTABLE"
+	"type" : "SHARED_LIBRARY"
 }

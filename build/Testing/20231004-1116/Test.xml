@@ -21,14 +21,48 @@
 	TotalVirtualMemory="18761"
 	TotalPhysicalMemory="16329"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="3477"
+	ProcessorClockFrequency="3400"
 	>
 	<Testing>
-		<StartDateTime>Oct 04 14:44 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
-		<StartTestTime>1696419882</StartTestTime>
-		<TestList/>
-		<EndDateTime>Oct 04 14:44 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
-		<EndTestTime>1696419882</EndTestTime>
+		<StartDateTime>Oct 04 22:08 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
+		<StartTestTime>1696446518</StartTestTime>
+		<TestList>
+			<Test>./Test_Sum,</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>Test_Sum,</Name>
+			<Path>.</Path>
+			<FullName>./Test_Sum,</FullName>
+			<FullCommandLine>C:\Users\Selfrock\Desktop\C++\hello_world\build\Hello_World.exe "Sum"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.259985</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\Users\Selfrock\Desktop\C++\hello_world\build\Hello_World.exe "Sum"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Hello World 6
+Hello, from boost!
+Hello World!
+Sum from shared lib = 11
+took 0.243921 seconds
+sqrt 4 2 
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Oct 04 22:08 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
+		<EndTestTime>1696446518</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

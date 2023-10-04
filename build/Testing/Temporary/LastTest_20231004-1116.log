@@ -1,3 +1,24 @@
-Start testing: Oct 04 14:44 RTZ 2 (çèìà)
+Start testing: Oct 04 22:08 RTZ 2 (çèìà)
 ----------------------------------------------------------
-End testing: Oct 04 14:44 RTZ 2 (çèìà)
+3/3 Testing: Test_Sum,
+3/3 Test: Test_Sum,
+Command: "C:/Users/Selfrock/Desktop/C++/hello_world/build/Hello_World.exe" "Sum"
+Directory: C:/Users/Selfrock/Desktop/C++/hello_world/build
+"Test_Sum," start time: Oct 04 22:08 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Hello World 6
+Hello, from boost!
+Hello World!
+Sum from shared lib = 11
+took 0.243921 seconds
+sqrt 4 2 
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"Test_Sum," end time: Oct 04 22:08 RTZ 2 (çèìà)
+"Test_Sum," time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 04 22:08 RTZ 2 (çèìà)

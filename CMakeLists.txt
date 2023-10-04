@@ -7,7 +7,8 @@ include(CTest)
 enable_testing()
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/build")
 add_test(Test_0, "${CMAKE_SOURCE_DIR}/build/${PROJECT_NAME}" "0")
-add_test(Test_1, "${CMAKE_SOURCE_DIR}/build/${PROJECT_NAME}" "1")
+add_test(Test_Sqrt, "${CMAKE_SOURCE_DIR}/build/${PROJECT_NAME}" "Sqrt")
+add_test(Test_Sum, "${CMAKE_SOURCE_DIR}/build/${PROJECT_NAME}" "Sum")
 
 # добавление директори с include файлами
 include_directories(H:/boost_1_83_0 ${PROJECT_SOURCE_DIR})

@@ -32,14 +32,23 @@ int main(int argc, const char** argv)
     std::sqrt( 123.456L ); // burn some time
     boost::chrono::duration<double> sec = boost::chrono::system_clock::now() - start;
     std::cout << "took " << sec.count() << " seconds\n";
-
+    std::cout << "sqrt 4 " << sqrt( 4 ) << " \n";
 
         //for CTest
         if (argc>1)
         {
         string tmp =argv[1];
         if (tmp=="0")return 0;
-        else if (tmp=="1") return 1;
+        else if (tmp=="Sum")
+            {
+             int t= sumint(2, 1);
+             if (t == 3) return 0;
+             else return 1;
+            }
+        else if (tmp=="Sqrt") {
+            if (sqrt(4)==2) return 0;
+            else return 1;
+            }
         }
 
 
