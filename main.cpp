@@ -34,7 +34,7 @@ int main(int argc, const char** argv)
     std::cout << "took " << sec.count() << " seconds\n";
     std::cout << "sqrt 4 " << sqrt( 4 ) << " \n";
 
-        //for CTest
+        //for CTest...
         if (argc>1)
         {
         string tmp =argv[1];
